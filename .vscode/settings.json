@@ -1,0 +1,7 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "typescript.format.insertSpaceAfterCommaDelimiter": true,
+    "javascript.format.insertSpaceAfterCommaDelimiter": true,
+    "prettier.requireConfig": false,
+    "liveServer.settings.port": 5501
+}
