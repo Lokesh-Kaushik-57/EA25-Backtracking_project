@@ -613,22 +613,22 @@
     <p style= "margin-top: 25px; margin-left: 139px; margin-right: 139px; width: 1088px; color: #858585; font-weight: lighter;">
         Along with canMove and makeMove, we are using methods puzzleSolved and printBoard with meanings that should be obvious.<br><br> Here is some output from the program:
     </p>
-    <ol type="1" start="16" style="margin-left: 139px; color: black; font-family: Arial;" reversed>
-        <li style="font-weight: bolder; font-size: 20px;">WHITE WHITE WHITE _____ BLACK BLACK BLACK</li>
-        <li style="font-weight: bolder; font-size: 20px;">WHITE WHITE WHITE BLACK _____ BLACK BLACK</li>
-        <li style="font-weight: bolder; font-size: 20px;">WHITE WHITE _____ BLACK WHITE BLACK BLACK</li>
-        <li style="font-weight: bolder; font-size: 20px;">WHITE _____ WHITE BLACK WHITE BLACK BLACK</li>
-        <li style="font-weight: bolder; font-size: 20px;">WHITE BLACK WHITE _____ WHITE BLACK BLACK</li>
-        <li style="font-weight: bolder; font-size: 20px;">WHITE BLACK WHITE BLACK WHITE _____ BLACK</li>
-        <li style="font-weight: bolder; font-size: 20px;">WHITE BLACK WHITE BLACK WHITE BLACK _____</li>
-        <li style="font-weight: bolder; font-size: 20px;">WHITE BLACK WHITE BLACK _____ WHITE BLACK</li>
-        <li style="font-weight: bolder; font-size: 20px;">_____ BLACK WHITE BLACK WHITE BLACK WHITE</li>
-        <li style="font-weight: bolder; font-size: 20px;">BLACK _____ WHITE BLACK WHITE BLACK WHITE</li>
-        <li style="font-weight: bolder; font-size: 20px;">BLACK BLACK WHITE _____ WHITE BLACK WHITE</li>
-        <li style="font-weight: bolder; font-size: 20px;">BLACK BLACK WHITE BLACK WHITE _____ WHITE</li>
-        <li style="font-weight: bolder; font-size: 20px;">BLACK BLACK WHITE BLACK _____ WHITE WHITE</li>
-        <li style="font-weight: bolder; font-size: 20px;">BLACK BLACK _____ BLACK WHITE WHITE WHITE</li>
-        <li style="font-weight: bolder; font-size: 20px;">BLACK BLACK BLACK _____ WHITE WHITE WHITE</li>
+    <ol type="1" start="16" style="margin-left: 139px; font-family: Arial;" reversed>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;">WHITE WHITE WHITE _____ BLACK BLACK BLACK</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;">WHITE WHITE WHITE BLACK _____ BLACK BLACK</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;">WHITE WHITE _____ BLACK WHITE BLACK BLACK</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;">WHITE _____ WHITE BLACK WHITE BLACK BLACK</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;">WHITE BLACK WHITE _____ WHITE BLACK BLACK</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;">WHITE BLACK WHITE BLACK WHITE _____ BLACK</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;">WHITE BLACK WHITE BLACK WHITE BLACK _____</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;">WHITE BLACK WHITE BLACK _____ WHITE BLACK</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;">_____ BLACK WHITE BLACK WHITE BLACK WHITE</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;"> _____ WHITE BLACK WHITE BLACK WHITE</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;"> BLACK WHITE _____ WHITE BLACK WHITE</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;"> BLACK WHITE BLACK WHITE _____ WHITE</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;"> BLACK WHITE BLACK _____ WHITE WHITE</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;"> BLACK _____ BLACK WHITE WHITE WHITE</span></li>
+        <li style="color: blue; font-style: italic;"><span style="color: black; font-size: 22px; font-weight: bold;"> BLACK BLACK _____ WHITE WHITE WHITE</span></li>
     </ol>
     <p style="border: 1px solid; background-color: #F8F8F8; border-radius: 10px; border-color: #EDEDED; margin-top: 40px; margin-left: 139px; width: 1060px; padding-left: 24px; padding-top: 17px; padding-bottom: 17px; padding-right: 23px; color: #858585; font-weight: 500; line-height: 2;">
         Notice that the solution is given in reverse order: BLACK starts out on the left and WHITE on the right, as in the last line. I've added line numbers to the actual output in order to emphasize this point. Backtracking always produces its results (sequence of choices) in reverse order; it is up to you, the programmer, to reverse the results again to get them in the correct order.
